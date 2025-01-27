@@ -1,9 +1,14 @@
-# Knowledge Base Maintainers
-* @timothywarner-org/kb-maintainers
+# Global owner
+* @timothywarner
 
-# Documentation Owners
-/docs/ @timothywarner-org/documentation-team
+# Documentation files
+/docs/ @timothywarner
 
-# Security-related content
-/docs/security-guidelines.md @timothywarner-org/security-team
-/docs/compliance-framework.md @timothywarner-org/compliance-team
+# Security and compliance files
+/docs/security-guidelines.md @timothywarner
+/docs/compliance-framework.md @timothywarner
+
+# Configuration files
+/.github/ @timothywarner
+/.vscode/ @timothywarner
+/.devcontainer/ @timothywarner
