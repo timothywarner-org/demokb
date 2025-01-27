@@ -2,6 +2,9 @@
 
 Welcome to the Timothy Warner Organization (TWORG) Knowledge Base! This repository serves as a demo knowledge base to showcase GitHub Copilot's enterprise features, particularly its ability to answer questions about your organization's documentation.
 
+## References
+📚 **New to GitHub Knowledge Bases?** Check out the [official GitHub documentation on managing Copilot knowledge bases](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/managing-copilot-knowledge-bases) to learn more about this powerful feature.
+
 ## Quick Start
 
 1. Clone this repository:
