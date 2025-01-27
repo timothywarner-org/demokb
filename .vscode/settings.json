@@ -1,0 +1,14 @@
+{
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "markdown.validate.enabled": true,
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "cSpell.words": ["TWORG", "microservices", "kubernetes", "terraform"],
+  "markdownlint.config": {
+    "MD013": false,
+    "MD033": false
+  }
+}

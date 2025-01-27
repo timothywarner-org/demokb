@@ -1,0 +1,9 @@
+# Knowledge Base Maintainers
+* @timothywarner-org/kb-maintainers
+
+# Documentation Owners
+/docs/ @timothywarner-org/documentation-team
+
+# Security-related content
+/docs/security-guidelines.md @timothywarner-org/security-team
+/docs/compliance-framework.md @timothywarner-org/compliance-team

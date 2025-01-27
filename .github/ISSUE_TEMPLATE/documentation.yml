@@ -1,0 +1,56 @@
+name: 📚 Documentation Update
+description: Suggest an update or improvement to the knowledge base documentation
+title: "docs: "
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help improve our knowledge base!
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Documentation Change
+      options:
+        - New Documentation
+        - Update Existing Documentation
+        - Fix Error
+        - Improve Clarity
+        - Add Examples
+    validations:
+      required: true
+
+  - type: input
+    id: affected-docs
+    attributes:
+      label: Affected Documentation
+      description: Which documentation files need to be updated?
+      placeholder: "e.g., docs/best-practices.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What changes are needed?
+      placeholder: "Describe the changes needed and why they're important..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: If applicable, provide examples to illustrate the changes
+      placeholder: "Code examples, screenshots, or explanations..."
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our contribution guidelines
+      options:
+        - label: I agree to follow TWORG's documentation standards and guidelines
+          required: true
