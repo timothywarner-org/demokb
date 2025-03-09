@@ -1,0 +1,18 @@
+# Exclude all `.env` files across all repositories.
+"*":
+  - "**/.env"
+
+# Specific exclusions for the `demokb` repository.
+timothywarner-org/demokb:
+  # Exclude all Markdown files in the `internal` directory.
+  - "/internal/**/*.md"
+  # Exclude all `.txt` files except `README.txt` and `requirements.txt`.
+  - "**/[!Rr]*.txt"             # Files not starting with R or r
+  - "**/R[!Ee]*.txt"            # Files starting with R but not Re
+  - "**/Re[!Aa]*.txt"           # Files starting with Re but not Rea
+  - "**/Rea[!Dd]*.txt"          # Files starting with Rea but not Read
+  - "**/Read[!Mm]*.txt"         # Files starting with Read but not Readm
+  - "**/Readm[!Ee]*.txt"        # Files starting with Readm but not Readme
+  - "**/Readme[!\.]*.txt"       # Files starting with Readme but not Readme.
+  - "**/readme[!\.]*.txt"       # Files starting with readme but not readme.
+  - "**/requirements[!\.]*.txt" # Files starting with requirements but not requirements.
